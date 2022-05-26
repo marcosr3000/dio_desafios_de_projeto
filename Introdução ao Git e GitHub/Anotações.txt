@@ -1,1 +1,0 @@
-arquivo criado para o Desafio de Projeto do curso de Introdução ao Git e GitHub
