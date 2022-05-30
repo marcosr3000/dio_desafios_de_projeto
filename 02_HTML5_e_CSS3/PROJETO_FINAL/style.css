@@ -11,7 +11,7 @@ body {
 
 .header-wrapper {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(-45deg, #050404, #2e1c2b, #4a1942, #893168);
     background-size: 400% 400%;
     display: flex;
@@ -40,10 +40,10 @@ h2 {
 
 .social-media a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 24px;
     padding: 1rem 4rem;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     min-width: 4rem;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ h2 {
 
 a:hover {
     color: #2e1c2b;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 @keyframes backgroundTransition {
@@ -92,7 +92,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: white;
+    background-color: #ffffff;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -183,11 +183,11 @@ a:hover {
 }
 
 #toggle:checked + .checkbox {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 100vmax white;
+    box-shadow: 0px 0px 0px 100vmax #ffffff;
     z-index: 1;
 }
 
@@ -227,7 +227,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     filter: grayscale(0.5);
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -254,7 +254,7 @@ a:hover {
     height: 100px;
     width: 100px;
     display: block;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     opacity: 0;
     transition: 0.3s;
 }
