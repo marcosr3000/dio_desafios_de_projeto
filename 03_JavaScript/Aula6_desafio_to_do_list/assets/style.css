@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#list {
+    margin-top: 20px;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
