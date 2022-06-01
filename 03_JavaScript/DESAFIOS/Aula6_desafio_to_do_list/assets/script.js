@@ -7,10 +7,7 @@ function add() {
     <input type="checkbox" id="${todo2}">
     <label class="checkbox" for="${todo2}">
     ${todo2}<br>
-    </label>
-    `)
-    
+    </label>`)
+
     document.getElementById('field').value = '';
-
-
 }
