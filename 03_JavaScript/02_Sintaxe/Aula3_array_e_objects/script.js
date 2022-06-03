@@ -9,7 +9,7 @@ let array = ['string', 1, true, ['array1'], ['array2'], ['array3'], ['array4']];
 // console.log(array[3])
 
 //forEach
-// array.forEach(function(item, index){console.log(item, index)});
+array.forEach(function(item, index){console.log(item, index)});
 
 // array.push('novo item');
 // console.log(array);
@@ -31,13 +31,13 @@ let array = ['string', 1, true, ['array1'], ['array2'], ['array3'], ['array4']];
 // let novoArray  = array.slice(0, 3);
 // console.log(novoArray)
 
-let object = { string: 'string', number: 1, boolean: true, array: ["array"], objectInterno: 'objeto interno' }
+// let object = { string: 'string', number: 1, boolean: true, array: ["array"], objectInterno: 'objeto interno' }
 
-console.log(object.objectInterno)
+// console.log(object.objectInterno)
 
-var string = object.string;
-console.log(string);
+// var string = object.string;
+// console.log(string);
 
-var arrayInterno = object.array;
-console.log(arrayInterno)
+// var arrayInterno = object.array;
+// console.log(arrayInterno)
 
