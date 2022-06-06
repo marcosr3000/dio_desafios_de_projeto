@@ -15,7 +15,7 @@ body {
 .matching-game {
     height: 640px;
     width: 640px;
-    margin: auto auto auto 600px ;
+    margin: auto auto auto 40vw;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
