@@ -10,11 +10,11 @@ public class ExceptionCustomizada2 {
         for (int i = 0; i < denominador.length; i++) {
             try {
                 if(numerador[i] % 2 != 0)
-                    throw new DivisaoNaoExataException("Divião não exata", numerador[i], denominador[i]);
+                    throw new DivisaoNaoExataException("Divisão não exata", numerador[i], denominador[i]);
 
                 int resultado = numerador[i] / denominador[i];
                 System.out.println(resultado);
-            } catch (DivisaoNaoExataException e) {
+            } catch (DivisaoNaoExataException | ArithmeticException | ArrayIndexOutOfBoundsException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog( null, e.getMessage());
             }
