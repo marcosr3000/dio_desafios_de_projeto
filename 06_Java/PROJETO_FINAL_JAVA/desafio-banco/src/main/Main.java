@@ -9,7 +9,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         Cliente marcos = new Cliente();
-//        marcos.setNome("Marcos Roberto");
         System.out.println("Digite o nome do cliente:");
         marcos.setNome(scan.next());
 
@@ -17,14 +16,12 @@ public class Main {
         double dinheiroDepositar = scan.nextDouble();
 
         Conta cc = new ContaCorrente(marcos);
-//        cc.depositar(500);
         cc.depositar(dinheiroDepositar);
 
         System.out.println("Digite o valor que quer transferir para sua Conta Poupança:");
         double dinheiroTranferir = scan.nextDouble();
 
         Conta poupanca = new ContaPoupanca(marcos);
-//        cc.transferir(100, poupanca);
         cc.transferir(dinheiroTranferir, poupanca);
 
         cc.imprimirExtrato();
